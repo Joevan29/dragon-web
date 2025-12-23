@@ -41,7 +41,7 @@ export function Dragon(props: any) {
     return (
         <group ref={group} {...props} dispose={null}>
             <Center>
-                <Resize scale={21}>
+                <Resize scale={20}>
                     <primitive object={scene} />
                 </Resize>
             </Center>
