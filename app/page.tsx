@@ -5,7 +5,7 @@ import { Canvas } from "@react-three/fiber";
 import { useProgress } from "@react-three/drei";
 import { Experience } from "@/components/Experience";
 import { Overlay } from "@/components/Overlay";
-import { ReactLenis } from "@studio-freight/react-lenis";
+import { ReactLenis } from 'lenis/react'
 
 function LoadingScreen() {
   const { progress, active } = useProgress();
